@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/messenger/static/css/main.69111a67.css",
+    "main.js": "/messenger/static/js/main.f7b74aba.js",
+    "index.html": "/messenger/index.html",
+    "main.69111a67.css.map": "/messenger/static/css/main.69111a67.css.map",
+    "main.f7b74aba.js.map": "/messenger/static/js/main.f7b74aba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69111a67.css",
+    "static/js/main.f7b74aba.js"
+  ]
+}
