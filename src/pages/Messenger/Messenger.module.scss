@@ -1,0 +1,23 @@
+.messenger {
+
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100vw;
+  height: calc(100vh - 100px);
+
+  .contacts {
+    width: 20%;
+    max-width: 400px;
+    min-width: 150px;
+    background-color: lightblue;
+    overflow-y: auto;
+  }
+
+  .chat {
+    width: 80%;
+    min-width: calc(100vw - 300px);
+
+  }
+
+}

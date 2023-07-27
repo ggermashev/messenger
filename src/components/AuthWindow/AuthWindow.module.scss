@@ -1,0 +1,40 @@
+.authWindow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgba(0,0,0,0.05);
+  border-radius: 1em;
+  padding: 1em;
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
+
+  .mode {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+
+    .left, .right  {
+      position: absolute;
+      max-width: 30%;
+
+      h3 {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+      }
+    }
+
+    .left {
+      left: 1em;
+    }
+
+    .right {
+      right: 1em;
+    }
+  }
+}

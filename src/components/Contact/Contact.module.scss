@@ -1,0 +1,31 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  height: 60px;
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid white;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgba(255,255,255,0.8)!important;
+  }
+
+  p {
+    margin: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .header {
+    position: relative;
+  }
+
+  .lastMsg {
+    position: relative;
+  }
+
+}

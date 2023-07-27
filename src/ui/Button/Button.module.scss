@@ -1,0 +1,32 @@
+.wrap {
+  position: relative;
+
+  .button {
+    padding: 1em;
+    border: none;
+    border-radius: 1em;
+    min-width: 80px;
+    background-color: lightgrey;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+    .prompt {
+      position: absolute;
+      width: auto;
+      padding: 4px;
+      background-color: rgba(0,0,0,0.05);
+      border: 1px solid red;
+      top: 2px;
+      bottom: 2px;
+      align-items: center;
+      justify-content: center;
+      margin-left: 5px;
+      overflow-y: auto;
+      border-radius: 1em;
+    }
+
+}
+

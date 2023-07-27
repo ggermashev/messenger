@@ -1,0 +1,52 @@
+.wrap {
+
+  position: relative;
+
+  textarea.textInput {
+    resize: vertical;
+    min-height: 3em;
+    max-height: 18em;
+    overflow-y: auto;
+  }
+
+  input.textInput {
+
+  }
+
+  .textInput {
+
+    border: 1px solid black;
+    border-radius: 1em;
+    padding: 1em;
+    width: 100%;
+
+    clear: both;
+    float: left;
+
+    &:focus {
+      outline: none;
+      border-color: lightblue;
+    }
+  }
+
+  p {
+    margin: 0;
+  }
+
+  p.title {
+    margin-left: 1em;
+    font-size: 1.1em;
+    text-align: center;
+    float: left;
+
+  }
+
+  p.error {
+    color: red;
+    font-size: 0.8em;
+    float: left;
+    clear: both;
+  }
+
+}
+

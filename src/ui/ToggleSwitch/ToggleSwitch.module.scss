@@ -1,0 +1,19 @@
+.switch {
+  padding: 5px;
+  border-radius: 1em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .toggle {
+    background-color: white;
+    border-radius: 100%;
+    position: absolute;
+    right: 5px;
+  }
+}

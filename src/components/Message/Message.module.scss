@@ -1,0 +1,14 @@
+.message {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: white;
+  width: auto;
+  max-width: 60%;
+  position: relative;
+  margin: 1em;
+  padding: .5em;
+  border-radius: .5em;
+  word-break: break-all;
+}

@@ -1,0 +1,16 @@
+.loader {
+
+  img {
+    animation: 1.5s linear 0s infinite rotate;
+  }
+}
+
+@keyframes rotate {
+  from {
+    rotate: 0;
+  }
+
+  to {
+    rotate: 360deg;
+  }
+}

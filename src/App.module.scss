@@ -1,0 +1,15 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  position: relative;
+  min-height: 100vh;
+
+  main {
+    padding-top: 100px;
+    position: relative;
+    min-height: calc(100vh - 100px);
+  }
+}
